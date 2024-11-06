@@ -4,7 +4,8 @@ function updateTabCount() {
       const tabCount = tabs.length.toString();
       // Set badge text to show tab count
       chrome.action.setBadgeText({ text: tabCount });
-      chrome.action.setBadgeBackgroundColor({ color: '#4688F1' }); // Optional: Set badge color
+      chrome.action.setBadgeTextColor({color:"#ffffff"})
+      chrome.action.setBadgeBackgroundColor({ color: '#0000cc' }); // Optional: Set badge color
     });
   }
   

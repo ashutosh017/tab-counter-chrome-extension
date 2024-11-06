@@ -28,8 +28,8 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <p>{`Tab Count: ${tabCount}`}</p>
+    <div className="w-44 h-96 bg-blue-950 text-white">
+      <p  className="text-xl "> {`Tab Count: ${tabCount}`}</p>
     </div>
   );
 }
